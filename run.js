@@ -1,6 +1,5 @@
 const { spawn } = require('child_process')
 const cp = require('child_process')
-// const chalk = require('chalk')
 const { promisify } = require('util')
 const exec = promisify(cp.exec).bind(cp)
 function start(cmd) {
